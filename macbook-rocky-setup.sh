@@ -10,6 +10,7 @@
 #   Or to run only a specific module:
 #   sudo ./macbook-rocky-setup.sh --module t2
 #   sudo ./macbook-rocky-setup.sh --module hprgs --rgs-installer /path/to/install.sh
+#   bash -c "$(curl -fsSL https://raw.githubusercontent.com/hansnone/macbook-rocky-setup/refs/heads/main/macbook-rocky-setup.sh)"
 # ==============================================================================
 
 set -Eeuo pipefail
